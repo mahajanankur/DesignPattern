@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.designpatterns.decorator;
+package com.java.designpatterns.decorator.firstexample;
 
 /**
  * @author amahajan

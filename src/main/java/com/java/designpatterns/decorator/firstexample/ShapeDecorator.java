@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.designpatterns.decorator;
+package com.java.designpatterns.decorator.firstexample;
 
 /**
  * @author amahajan
@@ -15,6 +15,8 @@ public abstract class ShapeDecorator implements Shape {
 		decoratedShape = shape;
 	}
 
-	public abstract void draw();
+	public void draw() {
+		decoratedShape.draw();
+	}
 
 }

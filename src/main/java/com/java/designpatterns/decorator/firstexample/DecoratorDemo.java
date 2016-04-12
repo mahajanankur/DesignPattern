@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.designpatterns.decorator;
+package com.java.designpatterns.decorator.firstexample;
 
 /**
  * @author amahajan
@@ -15,9 +15,9 @@ public class DecoratorDemo {
 	public static void main(String[] args) {
 		Shape circle = new Circle();
 
-		Shape redCircle = new RedShapeDecorator(new Circle());
+		Shape redCircle = new RedShape(new Circle());
 
-		Shape redRectangle = new RedShapeDecorator(new Rectangle());
+		Shape redRectangle = new RedShape(new Rectangle());
 
 		System.out.println("Normal Border");
 		circle.draw();

@@ -1,19 +1,19 @@
 /**
  * 
  */
-package com.java.designpatterns.decorator;
+package com.java.designpatterns.decorator.firstexample;
 
 /**
  * @author amahajan
  *
  */
-public class Circle implements Shape {
+public class Rectangle implements Shape {
 
 	/* (non-Javadoc)
 	 * @see com.java.designpatterns.decorator.Shape#draw()
 	 */
 	public void draw() {
-		System.out.println("Shape : Circle");
+		System.out.println("Shape : Rectangle");
 
 	}
 
