@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.java.designpatterns.factorymethod.second;
+package com.java.designpatterns.factory.first;
 
 /**
  * @author ankur.mahajan
